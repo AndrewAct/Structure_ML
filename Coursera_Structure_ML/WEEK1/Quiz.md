@@ -132,8 +132,10 @@ You have only 1,000 images of the new species of bird. The city expects a better
 
 ## 15. 
 The City Council thinks that having more Cats in the city would help scare off birds. They are so happy with your work on the Bird detector that they also hire you to build a Cat detector. (Wow Cat detectors are just incredibly useful aren’t they.) Because of years of working on Cat detectors, you have such a huge dataset of 100,000,000 cat images that training on this data takes about two weeks. Which of the statements do you agree with? (Check all that agree.)
---- 
+
 [] Buying faster computers could speed up your teams’ iteration speed and thus your team’s productivity.
+
 [] If 100,000,000 examples is enough to build a good enough Cat detector, you might be better of training with just 10,000,000 examples to gain a \approx≈10x improvement in how quickly you can run experiments, even if each model performs a bit worse because it’s trained on less data.
+
 [] Needing two weeks to train will limit the speed at which you can iterate.
 
