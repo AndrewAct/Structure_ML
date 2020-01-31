@@ -51,13 +51,13 @@ The distribution of data you care about contains images from your car’s front-
 #### Yes. As seen in lecture, it is important that your dev and test set have the closest possible distribution to “real”-data. It is also important for the training set to contain enough “real”-data to avoid having a data-mismatch problem.
 
 ## 6. 
-Assume you’ve finally chosen the following split between of the data:
+    Assume you’ve finally chosen the following split between of the data:
 
-Dataset:	Contains:	Error of the algorithm:
-Training	940,000 images randomly picked from (900,000 internet images + 60,000 car’s front-facing camera images)	8.8%
-Training-Dev	20,000 images randomly picked from (900,000 internet images + 60,000 car’s front-facing camera images)	9.1%
-Dev	20,000 images from your car’s front-facing camera	14.3%
-Test	20,000 images from the car’s front-facing camera	14.8%
+    Dataset:	Contains:	Error of the algorithm:
+    Training	940,000 images randomly picked from (900,000 internet images + 60,000 car’s front-facing camera images)	8.8%
+    Training-Dev	20,000 images randomly picked from (900,000 internet images + 60,000 car’s front-facing camera images)	9.1%
+    Dev	20,000 images from your car’s front-facing camera	14.3%
+    Test	20,000 images from the car’s front-facing camera	14.8%
 You also know that human-level error on the road sign and traffic signals classification task is around 0.5%. Which of the following are True? (Check all that apply).
 --- 
 
@@ -78,14 +78,19 @@ Based on table from the previous question, a friend thinks that the training dat
 ## 8.
 You decide to focus on the dev set and check by hand what are the errors due to. Here is a table summarizing your discoveries:
 
-Overall dev set error	15.3%
-Errors due to incorrectly labeled data	4.1%
-Errors due to foggy pictures	8.0%
-Errors due to rain drops stuck on your car’s front-facing camera	2.2%
-Errors due to other causes	1.0%
-In this table, 4.1%, 8.0%, etc. are a fraction of the total dev set (not just examples your algorithm mislabeled). For example, about 8.0/15.3 = 52% of your errors are due to foggy pictures.
+  Overall dev set error	15.3%
+  
+  Errors due to incorrectly labeled data	4.1%
+  
+  Errors due to foggy pictures	8.0%
+  
+  Errors due to rain drops stuck on your car’s front-facing camera	2.2%
+  
+  Errors due to other causes	1.0%
+  
+  In this table, 4.1%, 8.0%, etc. are a fraction of the total dev set (not just examples your algorithm mislabeled). For example, about 8.0/15.3 = 52% of your errors are due to foggy pictures.
 
-The results from this analysis implies that the team’s highest priority should be to bring more foggy pictures into the training set so as to address the 8.0% of errors in that category. True/False?
+    The results from this analysis implies that the team’s highest priority should be to bring more foggy pictures into the training set so as to address the 8.0% of errors in that category. True/False?
 
 Additional Note: there are subtle concepts to consider with this question, and you may find arguments for why some answers are also correct or incorrect. We recommend that you spend time reading the feedback for this quiz, to understand what issues that you will want to consider when you are building your own machine learning project.
 ---
@@ -130,6 +135,7 @@ To recognize red and green lights, you have been using this approach:
 A teammate proposes a different, two-step approach:
 
 (B) In this two-step approach, you would first (i) detect the traffic light in the image (if any), then (ii) determine the color of the illuminated lamp in the traffic light.
+
 Between these two, Approach B is more of an end-to-end approach because it has distinct steps for the input end and the output end. True/False?
 --- 
 [√]False 
