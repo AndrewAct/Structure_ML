@@ -37,3 +37,48 @@
 # Speech recognition example 
 # Traning: Purchased data/Smart speaker control/Voice control 
 # Dev/test: Speech activated research mirror
+
+# 1/30/20 #
+# Bias and Variance with mismatched data distributions #
+# Training-dev set: 
+# Same distribution as training set, but used for training 
+
+# data distrbution: training error and training-dev error
+# mismatch;: training-dev set and test set 
+
+# More general formulation 
+
+# Addressing data mismatch #
+# - Carry out manual error analysis to try to understand difference between training and dev/test sets 
+# - Make training data more similar; or collect more data similar to dev/test sets
+
+
+########## Module 3 ##########
+## Learning from multiple tasks ##
+
+# Transfer Learning #
+# Use the model of one to solve another
+
+#  Example: Radiology diagonis 
+
+# Multi-task Learning #
+# When multi-task learning makes sense 
+# - Training on a set of tasks that could benefit from having shared lower-level features 
+# -Usually: Amount of data you have for each task is quite similar 
+
+########## Module 34 ##########
+# End-to-end Deep Learning # 
+# Example 
+# Facial Recoginition 
+# Machine translation 
+
+# Whether to use end-to-end machine learning #
+# Pros and cons
+
+# Pros 
+# - Let the data speak 
+# - Less hand-desinging of comonents needed 
+
+# Cons 
+# May need amount of data 
+# Exclude possible useful hand-designing components
