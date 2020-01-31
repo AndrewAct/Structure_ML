@@ -1,13 +1,13 @@
 # QUIZ 1
 ## 1. Problem Statement
-This example is adapted from a real production application, but with details disguised to protect confidentiality.
-You are a famous researcher in the City of Peacetopia. The people of Peacetopia have a common characteristic: they are afraid of birds. To save them, you have to build an algorithm that will detect any bird flying over Peacetopia and alert the population.
+    This example is adapted from a real production application, but with details disguised to protect confidentiality.
+    You are a famous researcher in the City of Peacetopia. The people of Peacetopia have a common characteristic: they are     afraid of birds. To save them, you have to build an algorithm that will detect any bird flying over Peacetopia and alert the population.
 
-The City Council gives you a dataset of 10,000,000 images of the sky above Peacetopia, taken from the city’s security cameras. They are labelled:
+    The City Council gives you a dataset of 10,000,000 images of the sky above Peacetopia, taken from the city’s security cameras. They are labelled:
 
 * y = 0: There is no bird on the image
 * y = 1: There is a bird on the image
-* Your goal is to build an algorithm able to classify new images taken by security cameras from Peacetopia.
+* Your goal is to build an algorithm able to classify new images taken by security cameras from Peacetopia.*
 
 #### There are a lot of decisions to make:
 
@@ -124,14 +124,14 @@ It turns out Peacetopia has hired one of your competitors to build a system as w
 
 
 ## 14. 
-You’ve handily beaten your competitor, and your system is now deployed in Peacetopia and is protecting the citizens from birds! But over the last few months, a new species of bird has been slowly migrating into the area, so the performance of your system slowly degrades because your data is being tested on a new type of data.
-You have only 1,000 images of the new species of bird. The city expects a better system from you within the next 3 months. Which of these should you do first?
+    You’ve handily beaten your competitor, and your system is now deployed in Peacetopia and is protecting the citizens from birds! But over the last few months, a new species of bird has been slowly migrating into the area, so the performance of your system slowly degrades because your data is being tested on a new type of data.
+    You have only 1,000 images of the new species of bird. The city expects a better system from you within the next 3 months. Which of these should you do first?
 
 [] Use the data you have to define a new evaluation metric (using a new dev/test set) taking into account the new species, and use that to drive further progress for your team.
 
 
 ## 15. 
-The City Council thinks that having more Cats in the city would help scare off birds. They are so happy with your work on the Bird detector that they also hire you to build a Cat detector. (Wow Cat detectors are just incredibly useful aren’t they.) Because of years of working on Cat detectors, you have such a huge dataset of 100,000,000 cat images that training on this data takes about two weeks. Which of the statements do you agree with? (Check all that agree.)
+    The City Council thinks that having more Cats in the city would help scare off birds. They are so happy with your work on the Bird detector that they also hire you to build a Cat detector. (Wow Cat detectors are just incredibly useful aren’t they.) Because of years of working on Cat detectors, you have such a huge dataset of 100,000,000 cat images that training on this data takes about two weeks. Which of the statements do you agree with? (Check all that agree.)
 
 [] Buying faster computers could speed up your teams’ iteration speed and thus your team’s productivity.
 
